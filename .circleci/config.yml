@@ -30,6 +30,12 @@ jobs:
           command: |
            echo "Install dependencies in the the backend API  "
            npm run api:install
+      # Build the frontend app
+      - run:
+          name: Front-End Build
+          command: |
+            echo "Build the frontend app"
+            npm run frontend:build
       # Build the backend API      
       - run:
           name: API Build
