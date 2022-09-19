@@ -12,7 +12,8 @@
     "start": "tsc && node dist/server.js",
     "dev": "nodemon src/server.ts",
     "up": "db-migrate --env dev up && db-migrate --env test up",
-    "down": "db-migrate --env dev reset && db-migrate --env test reset"
+    "down": "db-migrate --env dev reset && db-migrate --env test reset",
+    "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh"
   },
   "repository": {
     "type": "git",

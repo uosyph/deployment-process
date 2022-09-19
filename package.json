@@ -3,11 +3,10 @@
         "frontend:install": "cd app-frontend/ && npm install",
         "frontend:start": "cd app-frontend/ && npm run start",
         "frontend:build": "cd app-frontend/ && npm run build",
-        "frontend:test": "cd app-frontend/ && npm run test",
-        "frontend:e2e": "cd app-frontend/ && npm run e2e",
         "frontend:deploy": "cd app-frontend/ && npm run deploy",
         "api:install": "cd app-api/ && npm install",
         "api:build": "cd app-api/ && npm run build",
+        "api:test": "cd app-api/ && npm run test",
         "api:start": "cd app-api/ && npm run dev",
         "api:deploy": "cd app-api/ && npm run deploy",
         "deploy": "npm run api:deploy && npm run frontend:deploy"

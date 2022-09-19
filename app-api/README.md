@@ -10,7 +10,7 @@
   - By : Yousef Saeed - 
 <br>
 
-  **Note: The API uses tokens for most CRUD operations, but for sake of this project (the third project), I removed them.**
+  **Note: The API uses tokens for most CRUD operations, but for the sake of this project (the third project), I removed them.**
 </p>
 
 ---
