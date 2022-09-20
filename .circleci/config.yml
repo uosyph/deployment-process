@@ -62,11 +62,13 @@ jobs:
             echo "api build"
             npm run api:build
             echo "api deploy"
+            npm run api:deploy
             echo "front int"
             npm run frontend:install
             echo "front build"
             npm run frontend:build
             echo "front:deploy"
+            npm run frontend:deploy
             
               
 workflows:
