@@ -7,7 +7,7 @@
 <p align="center">
   Udacity NANODEGREE Program - ( Third Project )
 <br>
-  Deploying a Full Stack Application to AWS Using EB, S3, RDS and circleci
+  Deploying a Full Stack Application to AWS Using EB, S3, RDS and CircleCI
 <br>
   - By : Yousef Saeed - 
 </p>
