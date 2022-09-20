@@ -9,6 +9,6 @@
         "api:test": "cd app-api/ && npm run test",
         "api:start": "cd app-api/ && npm run start",
         "api:deploy": "cd app-api/ && npm run deploy",
-        "deploy": "npm run api:deploy && npm run frontend:deploy"
+        "deploy": "npm run api:deploy"
     }
 }
