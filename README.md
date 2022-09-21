@@ -7,7 +7,11 @@
 <p align="center">
   Udacity NANODEGREE Program - ( Third Project )
 <br>
-  Deploying a Full Stack Application to AWS Using EB, S3, RDS and CircleCI
+  Deploying a Full Stack Application to AWS
+<br>
+  Using Elastic Beanstalk for The Backend, S3 for The Frontend, RDS for The Database
+<br>
+  and CircleCI for The Continuous Integration & Delivery
 <br>
   - By : Yousef Saeed - 
 </p>
@@ -16,9 +20,9 @@
 
 ## Architecture
 
-<img src="documentation/diagrams/" alt="Architecture Diagram">
+<img src="documentation/diagrams/AWS_Architecture.png" alt="Architecture Diagram">
 
-* [Read More][documentation/]
+Read More About Infrastructure of AWS Architecture: [Infrastructure Description](documentation/InfrastructureDescription.md)
 
 
 ### Frontend
@@ -27,17 +31,11 @@
 
 <img src="documentation/images/eb_env.png" alt="AWS Elastic Beanstalk">
 
-* [Read More][documentation/]
-
-
 ### Backend
 
 `Endpoint: http://app-env.eba-bsgdyj6c.us-east-1.elasticbeanstalk.com/`
 
 <img src="documentation/images/s3_bucket.png" alt="AWS S3">
-
-* [Read More][documentation/]
-
 
 ### Database
 
@@ -45,7 +43,12 @@
 
 <img src="documentation/images/rds_db.png" alt="AWS RDS">
 
-* [Read More][documentation/]
+### CircleCI
+![CircleCIStat](https://circleci.com/gh/yousafesaeed/deployment-process.svg?style=svg)
+
+<img src="documentation/images/circleci_app.png">
+
+Read More About CircleCI and Pipeline Process: [Pipeline Process](documentation/PipelineProcess.md)
 
 
 ## Built With
