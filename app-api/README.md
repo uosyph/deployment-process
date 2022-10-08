@@ -1,11 +1,15 @@
 <a name="readme-top"></a>
 
 <h1 align="center">
-  Storefront-Backend
+  E-Commerce API
 </h1>
 
 <p align="center">
   Udacity NANODEGREE Program - ( Second Project )
+<br>
+  Marketplace backend for users to signup/login, view/create products, and make orders.
+<br>
+  (A Node.js API connected to a PostgreSQL database.)
 <br>
   - By : Yousef Saeed - 
 </p>

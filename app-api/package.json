@@ -1,7 +1,7 @@
 {
-  "name": "storefront-backend",
+  "name": "ecommerce-api",
   "version": "1.0.0",
-  "description": "Storefront-Backend",
+  "description": "ecommerce-api",
   "main": "dist/server.js",
   "scripts": {
     "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write",
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yousafesaeed/storefront-backend.git"
+    "url": "git+https://github.com/yousafesaeed/ecommerce-api.git"
   },
   "author": "Yousef Saeed",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yousafesaeed/storefront-backend/issues"
+    "url": "https://github.com/yousafesaeed/ecommerce-api/issues"
   },
-  "homepage": "https://github.com/yousafesaeed/storefront-backend#readme",
+  "homepage": "https://github.com/yousafesaeed/ecommerce-api#readme",
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
     "@types/body-parser": "^1.19.2",
