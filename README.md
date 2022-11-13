@@ -5,15 +5,13 @@
 </h1>
 
 <p align="center">
-  Udacity NANODEGREE Program - ( Third Project )
+<b>Third Project</b> for Advanced Full-Stack Web Development, NANODEGREE - Udacity.
 <br>
   Deploying a Full Stack Application to AWS
 <br>
   Using Elastic Beanstalk for The Backend, S3 for The Frontend, RDS for The Database
 <br>
-  and CircleCI for The Continuous Integration & Delivery
-<br>
-  - By : Yousef Saeed - 
+  and CircleCI for The Continuous Integration & Continuous Delivery
 </p>
 
 ---
